@@ -36,7 +36,9 @@ call plug#end()
 "    !./install.py  
 "  endif  
 "endfunction  
-
+let $i3 = '/home/sahil/.config/i3'
+let $rofi = '/usr/share/rofi'
+let $hm = '/home/sahil'
 let g:ycm_autoclose_preview_window_after_completion=1
 
 let python_highlight_all=1

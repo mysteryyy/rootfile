@@ -9,6 +9,7 @@ syntax enable
 "colorscheme welpe
 set noswapfile
 map <C-a> $
+nnoremap <silent><S-f> :set ft=bash<CR>
 nnoremap <silent><C-l> :tabn<CR>
 nnoremap <silent><C-k> :tabp<CR>
 nnoremap <silent><C-n> :colorscheme space-vim-dark<CR>
@@ -36,9 +37,12 @@ call plug#end()
 "    !./install.py  
 "  endif  
 "endfunction  
+"
+""Directory Paths
 let $i3 = '/home/sahil/.config/i3'
 let $rofi = '/usr/share/rofi'
 let $hm = '/home/sahil'
+""
 let g:ycm_autoclose_preview_window_after_completion=1
 
 let python_highlight_all=1

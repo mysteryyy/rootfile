@@ -9,6 +9,8 @@ syntax enable
 "colorscheme welpe
 set noswapfile
 map <C-a> $
+
+nnoremap <F1> :echo @%<CR>
 nnoremap <silent><S-f> :set ft=bash<CR>
 nnoremap <silent><C-l> :tabn<CR>
 nnoremap <silent><C-k> :tabp<CR>

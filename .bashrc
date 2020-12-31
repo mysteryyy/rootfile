@@ -16,6 +16,7 @@ export PATH=$PATH:$HOME/.local/bin
 ##powerline for shell-orignal
 alias notepdf='pandoc -s -o /home/sahil/notes.pdf /home/sahil/notes.md'
 alias notes='zathura /home/sahil/notes.pdf'
+hm='/home/sahil'
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1

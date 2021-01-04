@@ -4,7 +4,7 @@
 # for examples
 # If not running interactively, don't do anything
 PATH=$PATH:/bin:/usr/bin:xxx
-
+export CHEAT_USER_DIR=/home/sahil/cheatfiles/cheatsheets
 export PATH
 [ -z "$PS1" ] && return
 export PATH=$PATH:$HOME/.local/bin

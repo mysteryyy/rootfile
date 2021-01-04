@@ -4,7 +4,7 @@
 # for examples
 # If not running interactively, don't do anything
 PATH=$PATH:/bin:/usr/bin:xxx
-export CHEAT_USER_DIR=/home/sahil/cheatfiles/cheatsheets
+export CHEAT_USER_DIR=/usr/local/lib/python3.8/dist-packages/usr/share/cheat
 export PATH
 [ -z "$PS1" ] && return
 export PATH=$PATH:$HOME/.local/bin

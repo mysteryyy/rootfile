@@ -15,6 +15,7 @@ nnoremap <silent><S-f> :set ft=bash<CR>
 nnoremap <silent><C-l> :tabn<CR>
 nnoremap <silent><C-k> :tabp<CR>
 nnoremap <silent><C-n> :colorscheme space-vim-dark<CR>
+nnoremap <silent><C-m> :colorscheme badwolf<CR>
 call plug#begin('~/.vim/plugged')
 "checking changes
 "another change

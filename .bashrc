@@ -20,6 +20,7 @@ export PATH=$PATH:$HOME/.local/bin
 alias notepdf='pandoc -s -o /home/sahil/notes.pdf /home/sahil/notes.md'
 alias notes='zathura /home/sahil/notes.pdf'
 hm='/home/sahil'
+pylibs='/usr/local/lib/python3.8/dist-packages'
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1

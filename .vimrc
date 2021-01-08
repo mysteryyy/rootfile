@@ -50,6 +50,7 @@ call plug#end()
 let $i3 = '/home/sahil/.config/i3'
 let $rofi = '/usr/share/rofi'
 let $hm = '/home/sahil'
+let $secops = '/home/sahil/secopsmeet'
 ""
 let g:ycm_autoclose_preview_window_after_completion=1
 

@@ -21,6 +21,11 @@ call plug#begin('~/.vim/plugged')
 "another change
 
 
+
+
+Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
+Plug 'JuliaEditorSupport/julia-vim'
+Plug 'jpalardy/vim-slime', { 'for': ['python', 'julia']}
 Plug 'haishanh/night-owl.vim'
 Plug 'rakr/vim-one'
 Plug 'sjl/badwolf'

@@ -4,6 +4,7 @@
 # for examples
 # If not running interactively, don't do anything
 PATH=$PATH:/bin:/usr/bin:xxx
+alias julia1='/home/sahil/Downloads/julia-1.5.3/bin/julia'
 export CHEAT_USER_DIR=/usr/local/lib/python3.8/dist-packages/usr/share/cheat
 export PATH
 [ -z "$PS1" ] && return
@@ -127,19 +128,3 @@ fi
 #if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 #    . /etc/bash_completion
 #fi
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/root/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/root/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/root/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/root/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-

@@ -22,6 +22,7 @@ export PATH=$PATH:$HOME/.local/bin
 alias notepdf='pandoc -s -o /home/sahil/notes.pdf /home/sahil/notes.md'
 alias notes='zathura /home/sahil/notes.pdf'
 hm='/home/sahil'
+projdir='/home/sahil/projdir'
 pylibs='/usr/local/lib/python3.8/dist-packages'
 secops='/home/sahil/secopsmeet'
 powerline-daemon -q

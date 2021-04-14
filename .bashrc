@@ -6,7 +6,7 @@
 PATH=$PATH:/bin:/usr/bin:xxx
 #alias julia1='/home/sahil/Downloads/julia-1.5.3/bin/julia'
 alias julia1='/usr/bin/julia-1.5.3/bin/julia'
-export GOROOT=/usr/bin/go
+export GOROOT=/usr/local/go
 export GOPATH=$HOME/gostuff
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export CHEAT_USER_DIR=/usr/local/lib/python3.8/dist-packages/usr/share/cheat

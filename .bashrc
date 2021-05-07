@@ -24,6 +24,7 @@ export PATH=$PATH:$HOME/.local/bin
 ##powerline for shell-orignal
 alias notepdf='pandoc -s -o /home/sahil/notes.pdf /home/sahil/notes.md'
 alias notes='zathura /home/sahil/notes.pdf'
+alias server='ssh root@192.46.213.176'
 hm='/home/sahil'
 projdir='/home/sahil/projdir'
 pylibs='/usr/local/lib/python3.8/dist-packages'

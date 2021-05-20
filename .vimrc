@@ -20,8 +20,10 @@ call plug#begin('~/.vim/plugged')
 "checking changes
 "another change
 
+" Set this to 0 when u want to use c++ with syntastic
+let g:ycm_show_diagnostics_ui = 1 
 
-
+let g:ycm_filetype_whitelist = { 'cpp':1, 'h':2, 'hpp':3, 'c':4, 'cxx':5 }
 
 Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
 Plug 'JuliaEditorSupport/julia-vim'
@@ -71,10 +73,16 @@ let g:indentLine_fileType = ['python','julia']
 let g:indentLine_indentLevel = 5
 ""Indentline settings end
 let g:syntastic_always_populate_loc_list = 0
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 let g:ycm_auto_hover=""
 
+let g:syntastic_c_checkers=['make','splint']
+let g:syntastic_cpp_checkers=['gcc']
+"let g:syntastic_cpp_check_header = 1
+"let g:syntastic_cpp_auto_refresh_includes = 1
+"let g:syntastic_cpp_config_file = '.syntastic_cpp_config'
+"let g:syntastic_debug = 3
 let g:syntastic_quiet_messages = { "type": "style","regex": "SC2148"}
 let g:syntastic_tex_checkers = ['lacheck', 'text/language_check']

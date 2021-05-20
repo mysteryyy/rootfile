@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged')
 "checking changes
 "another change
 
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 " Set this to 0 when u want to use c++ with syntastic
 let g:ycm_show_diagnostics_ui = 1 
 
